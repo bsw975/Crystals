@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Crystals Collector</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/game.css" />
+</head>
+<body>
+
+<div id="game-title">CrystalsCollector</div>
+<div id="instructions">
+<p>You will be given a random number at the start of the game</p>
+<p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.
+</p>
+<p>You win the game by matching your total score to a random number; but you lose the bame if your total score goes above the random number.</p>
+<p>The value of each crystal is hidden from you until you click on it.</p>
+<p>Each time when the game starts, the game will change the value of each crystal.</p>
+</div>
+    <div id="target-score">
+    </div>
+    <div id="win-loss">
+        <p id="win-count"></p>
+        <p id="loss-count"></p>
+    </div>
+<!-- </div> -->
+<img id="cryst-one" src="assets/img/ruby.png">
+<img id="cryst-two" src="assets/img/sapphire.png" />
+<img id="cryst-three" src="assets/img/opal.png" />
+<img id="cryst-four" src="assets/img/emerald.png" />
+<div id="your-total-score"></div>
+<div id="user-score"></div>
+<!-- TO DO:
+        1) sudocode 
+        2) write what I do in one block
+        3) write down main objectives
+        4) pickup where left off
+            a) HTML needs coding (using JS)
+            b) CSS, too.
+        5) write how I track progress
+-->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="assets/js/game.js"></script>
+</body>
+</html>
